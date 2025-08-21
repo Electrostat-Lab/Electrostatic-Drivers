@@ -1,1 +1,0 @@
-cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/sio/modules.order := {   echo /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/sio/ksio.ko; :; } > /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/sio/modules.order

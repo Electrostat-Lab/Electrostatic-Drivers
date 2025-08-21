@@ -1,1 +1,0 @@
-cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/gpio/gpio.mod := printf '%s\n'   gpio.o | awk '!x[$$0]++ { print("/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/gpio/"$$0) }' > /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/gpio/gpio.mod

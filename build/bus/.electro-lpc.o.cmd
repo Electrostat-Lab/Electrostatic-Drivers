@@ -1,1 +1,0 @@
-cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/bus/electro-lpc.o := ld -m elf_x86_64 -z noexecstack --no-warn-rwx-segments   -r -o /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/bus/electro-lpc.o @/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/bus/electro-lpc.mod 

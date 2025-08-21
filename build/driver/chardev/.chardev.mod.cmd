@@ -1,1 +1,0 @@
-cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/chardev/chardev.mod := printf '%s\n'   chardev.o | awk '!x[$$0]++ { print("/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/chardev/"$$0) }' > /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/chardev/chardev.mod

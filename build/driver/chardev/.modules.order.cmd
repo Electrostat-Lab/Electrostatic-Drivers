@@ -1,1 +1,0 @@
-cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/chardev/modules.order := {   echo /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/chardev/chardev.ko; :; } > /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/chardev/modules.order
