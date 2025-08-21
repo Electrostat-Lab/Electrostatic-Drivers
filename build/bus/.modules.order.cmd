@@ -1,0 +1,1 @@
+cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/bus/modules.order := {   echo /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/bus/electro-lpc.ko; :; } > /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/bus/modules.order

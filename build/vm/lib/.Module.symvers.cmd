@@ -1,0 +1,1 @@
+cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/vm/lib/Module.symvers :=  sed 's/ko$$/o/'  /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/vm/lib/modules.order | scripts/mod/modpost -m      -o /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/vm/lib/Module.symvers -e -i Module.symvers -T - 

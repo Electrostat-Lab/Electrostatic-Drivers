@@ -1,0 +1,1 @@
+cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/i2c/i2c_sample.mod := printf '%s\n'   i2c_sample.o | awk '!x[$$0]++ { print("/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/i2c/"$$0) }' > /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/i2c/i2c_sample.mod

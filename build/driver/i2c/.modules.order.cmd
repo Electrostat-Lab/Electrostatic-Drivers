@@ -1,0 +1,1 @@
+cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/i2c/modules.order := {   echo /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/i2c/i2c_sample.ko; :; } > /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/i2c/modules.order

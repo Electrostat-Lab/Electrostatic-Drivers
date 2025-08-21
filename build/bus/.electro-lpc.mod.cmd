@@ -1,0 +1,1 @@
+cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/bus/electro-lpc.mod := printf '%s\n'   ../vm/lib/test.o lpc.o | awk '!x[$$0]++ { print("/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/bus/"$$0) }' > /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/bus/electro-lpc.mod

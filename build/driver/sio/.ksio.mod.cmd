@@ -1,0 +1,1 @@
+cmd_/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/sio/ksio.mod := printf '%s\n'   sio.o it87xx_sio.o | awk '!x[$$0]++ { print("/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/sio/"$$0) }' > /media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/sio/ksio.mod

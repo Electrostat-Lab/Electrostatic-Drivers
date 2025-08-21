@@ -1,0 +1,1 @@
+/media/pavl-g/pavl-g/Projects/Electrostatic-Drivers/build/driver/chardev/chardev.o
