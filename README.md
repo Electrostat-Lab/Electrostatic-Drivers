@@ -24,3 +24,6 @@ This repository offers extension drivers to the `Project: ElectroKIO` from the [
    * 5.1 The build system automata.
    * 5.2 The build system tree.
    * 5.3 Building and inserting with the SDK.
+
+### 1) Preface: 
+The major goal of this project is to provide **Input Emulation for the common human-interface-devices (HID)** especially for Keyboard, Mouse, and Joystick through custom I/O interfaces (e.g., Serial RS232/UART, Parallel IEEE-1284, and Ethernet IEEE-802).
