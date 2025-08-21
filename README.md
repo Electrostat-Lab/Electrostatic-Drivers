@@ -1,5 +1,4 @@
-<img src="https://github.com/Electrostat-Lab/Electrostatic-Drivers/res/linux-tux-svgrepo-com.png" width="250" height="250" />
-# Electrostatic-Drivers
+# <img src="https://github.com/Electrostat-Lab/Electrostatic-Drivers/blob/master/res/linux-tux-svgrepo-com.png" width="100" height="100" /> Electrostatic-Drivers
 
 This repository offers extension drivers to the `Project: ElectroKIO` from the [Electrostatic-Sandbox SDK](https://github.com/Electrostat-Lab/Electrostatic-Sandbox), an SDK suite for distributed simulation software. 
 
