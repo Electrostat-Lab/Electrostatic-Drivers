@@ -3,11 +3,11 @@
 The following document presents the problem analysis, decomposition, and the suggested solutions, eventually the proposed system design for this software. 
 
 ## Table of contents:
-1) Design Problem Specification.
+1) [Design Problem Specification](https://github.com/Electrostat-Lab/Electrostatic-Drivers/blob/master/docs/electro-drivers/problem.md)
 	* 1.1 Functional Problem bulk.
 	* 1.2 Functional Problems decomposition.
 	* 1.3 Non-functional Problems.
-2) Components Design Specification.
+2) [Components Design Specification](https://github.com/Electrostat-Lab/Electrostatic-Drivers/blob/master/docs/electro-drivers/components.md)
 	* 2.1 Entity-Structural Components.
 	* 2.2 Machine Components.
 3) System Design Specification.
