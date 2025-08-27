@@ -5,8 +5,6 @@ The problem statement is to provide:
 1. Controlling a conventional I/O interface over another I/O interface; commonly known as **"I/O Emulation"**.  
 2. Writing Serial and Parallel programming interfaces for Embedded Bare-Metal MCU over the Super I/O Chips controllers. (Deferred for later revisit).  
 
----
-
 ## Table of Contents
 1. Design Problem Specification  
    * 1.1 Functional Problem Bulk  
@@ -16,8 +14,6 @@ The problem statement is to provide:
 2. Design Implications
    * 2.1 Modus Ponens
    * 2.2 Modus Tollens
-
----
 
 ## 1) Design Problem Specification:
 
@@ -32,8 +28,6 @@ $$
 
 > [!NOTE]  
 > * $P_{Compatible\ I/O\ architectures}$: is defined as a functional problem that arises as a result of various manufacturers for the same category of devices (e.g., Super I/O Chips), and even the variations across the same device family.  
-
----
 
 ### Section 1.2: Functional Problems Decomposition
 
@@ -52,8 +46,6 @@ $$
 > [!NOTE]  
 > * $P_{I/O\ Emulator\ Interface}$: is defined as the hardware-software interface through which the emulation is facilitated. It could be an input or an output interface; being an **Emulator** interface denotes that it sends the emulation commands to the emulation engine components to emulate another I/O interface.  
 > * $P_{I/O\ Emulated\ Interface}$: is defined as the hardware-software interface which is emulated by the emulation engine. It could be an input or an output interface; being an **Emulated** interface denotes dependence on the **Emulation Engine** and compatibility upon the **Emulator** interface, as the **emulated** interface receives input from the **Emulation Engine**.  
-
----
 
 ### Section 1.3: Non-functional Problems
 
@@ -75,8 +67,6 @@ P_{I/O\ device\ de-init},\
 P_{Linux\ VFS},\ 
 P_{Emulation\ VM} \\}
 $$  
-
----
 
 ### Section 1.4: Problem-Problems Relationship
 
