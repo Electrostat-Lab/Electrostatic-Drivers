@@ -26,8 +26,8 @@ The problem statement is to provide:
 Functional problem formula:  
 
 $$
-P_{functional} = \{ P_{I/O\ Emulation\ of\ IO-2\ interface\ over\ I/O-1\ interface},\ 
-P_{Compatible\ I/O\ architectures} \}
+P_{functional} = \\{ P_{I/O\ Emulation\ of\ IO-2\ interface\ over\ I/O-1\ interface},\\
+P_{Compatible\ I/O\ architectures} \\}
 $$  
 
 > [!NOTE]  
@@ -43,10 +43,10 @@ The final sub-problems set is a subset of the original bulk set presented in **S
 Functional problems decomposition formula:  
 
 $$
-P_{functional} = \{ P_{I/O\ Emulator\ Interface},\ 
+P_{functional} = \\{ P_{I/O\ Emulator\ Interface},\ 
 P_{I/O\ Emulated\ Interface},\ 
 P_{Emulation\ Kernel\ Engine},\ 
-P_{Emulation\ User\ Engine} \}
+P_{Emulation\ User\ Engine} \\}
 $$  
 
 > [!NOTE]  
@@ -63,7 +63,7 @@ These parts of the problem are not playing an explicit role in the functional re
 Non-functional problems formula:  
 
 $$
-P_{Non-functional} = \{
+P_{Non-functional} = \\{
 P_{I/O\ resources\ shared\ acquisition},\ 
 P_{I/O\ Locked\ threaded\ init},\ 
 P_{I/O\ Locked\ error\ handling},\ 
@@ -73,7 +73,7 @@ P_{Programmed\ threaded\ interrupted\ I/O},\
 P_{I/O\ resources\ release},\ 
 P_{I/O\ device\ de-init},\ 
 P_{Linux\ VFS},\ 
-P_{Emulation\ VM} \}
+P_{Emulation\ VM} \\}
 $$  
 
 ---
@@ -87,7 +87,7 @@ Functional and non-functional problems are closely related to one another; there
 * Let $M_{IO}(p)$ be a set of ordered pairs that maps a functional problem to other non-functional problems; such that $p$ is an input/output interface problem for a physical or virtual I/O device.  
 
 $$
-M_{IO}(p) = \{
+M_{IO}(p) = \\{
 (P_{p}, P_{I/O\ resources\ shared\ acquisition}),\ 
 (P_{p}, P_{I/O\ Locked\ threaded\ init}),\ 
 (P_{p}, P_{I/O\ Locked\ error\ handling}),\ 
@@ -97,18 +97,18 @@ M_{IO}(p) = \{
 (P_{p}, P_{I/O\ resources\ release}),\ 
 (P_{p}, P_{I/O\ device\ de-init}),\ 
 (P_{p}, P_{Linux\ VFS}),\ 
-(P_{p}, P_{Emulation\ VM}) \}
+(P_{p}, P_{Emulation\ VM}) \\}
 $$  
 
 * Let $M_{Engine}(p)$ be a set of ordered pairs that maps a functional problem to other non-functional problems; such that $p$ is an engine interface problem for providing the emulation of an I/O interface over the other; an engine could be a **user-space** engine or a **kernel-space** engine.  
 
 $$
-M_{Engine}(p) = \{
+M_{Engine}(p) = \\{
 (P_{p}, P_{I/O\ R/W\ Clock\ Cycle}),\ 
 (P_{p}, P_{Linux\ VFS}),\ 
 (P_{p}, P_{Char/Block\ Devices}),\
 (P_{p}, P_{Emulation\ VM}),\ 
-(P_{p}, P_{I/O\ Operation\ Lifecycle}) \}
+(P_{p}, P_{I/O\ Operation\ Lifecycle}) \\}
 $$  
 
 
