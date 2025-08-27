@@ -26,8 +26,8 @@ A **component** is a piece of software or a physical hardware or a conceptual mo
 **Lemma.01**: Let $E$ be the entity-structural framework; a set that groups all **the structural sets of the system components**; with a single common property is that they are **structural sets of components**, $\Gamma$ be a structural set of components, $\gamma$ be a component of that structural set, and $P(...)$ be a predicate function defining a property for that component.
 
 * $$E = \bigcup_{i=0}^{n} \Gamma_{i}$$
-* $$\Gamma = \bigcup_{i=0}^{n} \gamma_{i}$$
-* $$\gamma = \bigwedge_{i=0}^{n} P_{i}(...)$$
+* $$\Gamma = \\{\bigcup_{i=0}^{n} \gamma_{i}: i \in N \land \gamma\ is\ a\ structural\ set\ of\ components. \land \gamma_{i}\ has\ P_{i}(...)\ set\ of\ predicates.\\}$$
+* $$P_{i}(...) = \bigwedge_{i=0}^{n} p_{i}(...)$$
 
 > [!NOTE]
 > All structural sets are in uppercase Greek letters, while structural components are in lowercase Greek letters.
