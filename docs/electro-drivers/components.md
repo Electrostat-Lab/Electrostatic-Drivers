@@ -1,7 +1,7 @@
 # Components Design Specification
 
 **Preface:**
-The components design specification is to provide solutions to the previously stated problem parts in the [problem document](). 
+The components design specification is to provide solutions to the previously stated problem parts in the [problem document](https://github.com/Electrostat-Lab/Electrostatic-Drivers/blob/master/docs/electro-drivers/problem.md). 
 
 A **component** is a piece of software or a physical hardware or a conceptual model that targets a specific part of the problem; though commonly a component is a piece of software from a high-level perspective.
 
@@ -23,11 +23,11 @@ A **component** is a piece of software or a physical hardware or a conceptual mo
 
 **Mathematical Abstraction**: The system structure could be represented as **structural sets of components**; such that each set define **structural properties** in the form of a predicate function, and components from a set must match those properties, otherwise they wouldn't be eligible to be grouped under this structural set.
 
-**Lemma.01**: Let $\Epsilon$ be the entity-structural framework; a set that groups all **the structural sets of the system components**; with a single common property is that they are **structural sets of components**, $\Gamma$ be a structural set of components, $\gamma$ be a component of that structural set, and $P(...)$ be a predicate function defining a property for that component.
+**Lemma.01**: Let $E$ be the entity-structural framework; a set that groups all **the structural sets of the system components**; with a single common property is that they are **structural sets of components**, $\Gamma$ be a structural set of components, $\gamma$ be a component of that structural set, and $P(...)$ be a predicate function defining a property for that component.
 
-* $$ \Epsilon = \bigcup_{i=0}^{n} \Gamma_{i}$$
-* $$ \Gamma = \bigcup_{i=0}^{n} \gamma_{i}$$
-* $$ \gamma = \bigwedge_{i=0}^{n} P_{i}(...)$$
+* $$E = \bigcup_{i=0}^{n} \Gamma_{i}$$
+* $$\Gamma = \bigcup_{i=0}^{n} \gamma_{i}$$
+* $$\gamma = \bigwedge_{i=0}^{n} P_{i}(...)$$
 
 > [!NOTE]
 > All structural sets are in uppercase Greek letters, while structural components are in lowercase Greek letters.
@@ -52,4 +52,4 @@ A **component** is a piece of software or a physical hardware or a conceptual mo
 > Machines are system components that are used for **initializing**, **allocating memory**, **transmitting and receiving data**, **encoding/decoding and encrypting/decrypting data**, **de-initializing**, and **deallocating resources** for system components. Furthermore, communication with other components is mediated through system machines. Therefore, in a system design; each component is associated with a state machine. A state machine can be further abstracted in the previously mentioned **Entity-Structural Framework** as properties of the structural components.
 >
 
-* $$ M_c = \{ Q, \Sigma, \delta(q_{i}, \sigma_{i}) \rightarrow q_{i+1}, q_0, F, \Gamma\}$$
+* $$M_c = \\{ Q, \Sigma, \delta(q_{i}, \sigma_{i}) \rightarrow q_{i+1}, q_0, F, \Gamma\\}$$
