@@ -22,3 +22,12 @@ The following document presents the problem analysis, decomposition, and the sug
 	* 4.7 Failure Routines.
 	* 4.8 Fallback Routines and Fallback Criteria.
 	
+## References:
+* [Project Talk: useful models to neatly describe any project in an interview or a conference](https://github.com/Electrostat-Lab/Project-talk)
+* [Axiomatic Set Theory](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory)
+* [Predicate Calculus](https://en.wikipedia.org/wiki/First-order_logic)
+* [Mathematical Modelling for System Design](https://link.springer.com/book/10.1007/978-3-030-18869-6#toc)
+* $\Pi$-[Calculus](https://en.wikipedia.org/wiki/%CE%A0-calculus)
+* [System Entity Structure Framework](https://dl.acm.org/doi/10.5555/3108244.3108245).
+* [Computational Automata Model](https://en.wikipedia.org/wiki/Theory_of_computation)
+* 
