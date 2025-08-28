@@ -30,7 +30,7 @@ A **component** is a piece of software or a physical hardware or a conceptual mo
 * $$P_{i}(...) = \bigwedge_{i=0}^{n} p_{i}(...)$$
 
 > [!NOTE]
-> All structural sets are in uppercase Greek letters, while structural components are in lowercase Greek letters.
+> All structural sets are in **uppercase Greek letters**, while structural components are in **lowercase Greek letters**, including the predicate functions defining the properties of a specific component.
 >
 
 ### Section 1.2: Defining system parts
