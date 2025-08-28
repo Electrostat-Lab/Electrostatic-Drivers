@@ -28,6 +28,6 @@ The following document presents the problem analysis, decomposition, and the sug
 * [Predicate Calculus](https://en.wikipedia.org/wiki/First-order_logic)
 * [Mathematical Modelling for System Design](https://link.springer.com/book/10.1007/978-3-030-18869-6#toc)
 * $\Pi$-[Calculus](https://en.wikipedia.org/wiki/%CE%A0-calculus)
-* [System Entity Structure Framework](https://dl.acm.org/doi/10.5555/3108244.3108245).
+* [System Entity Structure Framework](https://dl.acm.org/doi/10.5555/3108244.3108245)
 * [Computational Automata Model](https://en.wikipedia.org/wiki/Theory_of_computation)
-* 
+* [Distributed Systems by Sape Mullender](https://dl.acm.org/doi/book/10.5555/302430)
